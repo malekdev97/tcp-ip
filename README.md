@@ -1,15 +1,20 @@
+## TCP/IP
 
-## What is a Protocol? 
-Protocol is a rule of communication, which both side(client, server) should follow it to communication with the others.
+## What is TCP?
+Transmission Control Protocol (TCP) is a communications standard that enable application programs to exchange data/messages
+over a network. It purpose is to send packets in the network and ensure the successful delivery and integrity of data/messages over networks. 
 
-most common protocl is TCP/IP. 
+> Commonly refer to TCP in the network as TCP/IP
 
-## What is IP? 
-To identifiy a device in a network, it should have a number to identifiy from the sender to the reciver, IP represeneted in dotted-decimal with four decimal as 192.168.100.1  
+## TCP/IP Layers 
 
-## What is TCP
-TCP is a protocol which devices uses to send and recever data in the network 
+## How does it work? 
+Let's take a client and server as an example, both the client and the server should partake in a three-manner handshake through the layers of tranmsission control protocol to lay out a conventional
+TCP protocol. COmpuing up next is a breakdonw of the method: 
+SYN, ACK, FIN
+[IMAGE]
 
-## Packet 
+## Inside of TCP packet
 
-## Packet jourany 
+## Packet analyzer
+Wireshark 
