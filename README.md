@@ -11,7 +11,7 @@ So, on each side when sending a message the other side should send a response (A
 
 Finally, to end the connection, the client sends FIN(Finish) to close the connection, and the server sends ACK to confirm that it received the request, and the server also sends FIN to close the connection, and the client sends ACK to confirm that it received the request.
 
-![syn-ack-fin](https://github.com/user-attachments/assets/2d3964cf-8d53-4f39-9c99-cbde62603f12)
+![syn-ack-fin](https://github.com/user-attachments/assets/40c3a072-ec9a-48ed-8bf8-498e6f0f9106)
 
 ## Inside the TCP packet
 The TCP packet contains the following fields:
@@ -21,7 +21,7 @@ The TCP packet contains the following fields:
 - IP Address: The IP address of the sender and the receiver. 
 - MAC Address: The MAC address of the sender and the receiver.
 
-![frame](https://github.com/user-attachments/assets/6da88afb-c6bc-42e4-86e8-2a30d8faed54)
+![frame](https://github.com/user-attachments/assets/06884152-f42d-4032-9ffb-c07346b18dbe)
 
 > We can see the packets that have been transferred in our networking by using the packet analysis tool as **Wireshark**
 > There are many applications that enable us to capture the packets that are sent in our network by using a packet analysis tool, we will use Wireshark 
@@ -31,7 +31,7 @@ The TCP/IP layer describes the phases of sending and receiving a message in the 
 Each layer has its own specific function, on sending it use an encapsulation in which each layer adds its own header to the message, think about it as putting a message in a box, each layer adds another box to the preview box, 
 While on the receiving side, the message is decapsulated, each layer removes its own header and passes the message, also you can think about it as opening the box, each layer opens the box and passes the message to the next layer until the message is received to the application. 
 
-![osi](https://github.com/user-attachments/assets/c48908d8-3786-4af5-8bab-4ceb4dc86290)
+![osi-model](https://github.com/user-attachments/assets/9b5abf87-a6b2-4bf5-bbe8-3ba3ac2fb072)
 
 TCP/IP
 -   Application Layer: On the sending side the user interacts with the application and sends the message, while on the receiving side, the message is viewed by the user.
